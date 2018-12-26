@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green2">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:id="@+id/hi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="一" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="二" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="三" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="四" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="五" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="3"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="4"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="5"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="6"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="7"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="9"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t91"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/t95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="A"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tA1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tA2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tA3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tA4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tA5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="B"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tB1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tB2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tB3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tB4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tB5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="C"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tC1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tC2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tC3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tC4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/tC5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="checkCB" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/laylaylay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/table">
+
+                <TextView
+                    android:id="@+id/txvClassroom"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="上課教室："
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/table"
+                    app:layout_constraintTop_toBottomOf="@+id/table" />
+
+                <EditText
+                    android:id="@+id/editClassroom"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:ems="10"
+                    android:hint="輸入教室"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txvClassroom"
+                    app:layout_constraintStart_toEndOf="@+id/txvClassroom" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/laylaylay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/table">
+
+                <TextView
+                    android:id="@+id/tvClass2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="上課教室："
+                    android:textSize="16sp"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="@+id/table"
+                    app:layout_constraintTop_toBottomOf="@+id/table" />
+
+                <EditText
+                    android:id="@+id/etClass2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:ems="10"
+                    android:hint="輸入教室"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    android:visibility="invisible"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txvClassroom"
+                    app:layout_constraintStart_toEndOf="@+id/txvClassroom" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/greenbut"
+                android:gravity="center"
+                android:onClick="btnYesClick"
+                android:text="確定"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
